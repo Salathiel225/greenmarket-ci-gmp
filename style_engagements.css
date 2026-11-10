@@ -1,0 +1,178 @@
+:root {
+  --vert: #2f7d32;
+  --vert-fonce: #1c6933;
+  --pale: #f4f7ef;
+  --orange: #e07b00;
+}
+
+main {
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 20px 35px;
+}
+
+.intro-engagements {
+  max-width: 760px;
+  margin: 0 auto 34px;
+  text-align: center;
+}
+
+.sur-titre {
+  margin: 0 0 6px;
+  color: var(--orange);
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+h2 {
+  color: var(--vert-fonce);
+}
+
+.intro-engagements h2 {
+  margin: 0 0 12px;
+  font-size: 2.2rem;
+}
+
+.intro-engagements p:last-child {
+  font-size: 1.1rem;
+}
+
+.criteres {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+  margin-bottom: 48px;
+}
+
+.critere {
+  padding: 28px 24px;
+  border: 1px solid #d5e5d0;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 5px 16px rgba(31, 70, 32, 0.08);
+}
+
+.image-badge {
+  display: block;
+  width: 78px;
+  height: 78px;
+  margin: 0 auto 12px;
+  object-fit: contain;
+}
+
+.numero-critere {
+  display: grid;
+  width: 34px;
+  height: 34px;
+  margin: 0 auto 12px;
+  place-items: center;
+  border-radius: 50%;
+  color: #fff;
+  background: var(--vert);
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.critere h3 {
+  margin: 0 0 8px;
+  color: var(--vert-fonce);
+  font-size: 1.35rem;
+}
+
+.critere p {
+  min-height: 100px;
+  margin-bottom: 18px;
+}
+
+.badge-critere {
+  display: inline-block;
+  padding: 4px 11px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.local {
+  color: #8a4c00;
+  background: #fff1d9;
+}
+
+.recycle {
+  color: #216426;
+  background: #e3f2df;
+}
+
+.reutilisable {
+  color: #145493;
+  background: #e1efff;
+}
+
+.methode {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 42px;
+  align-items: center;
+  margin-bottom: 42px;
+  padding: 32px;
+  border-radius: 12px;
+  background: #e8f3e5;
+}
+
+.methode h2 {
+  margin-top: 0;
+}
+
+.etapes {
+  margin: 0;
+  padding-left: 24px;
+}
+
+.etapes li {
+  margin-bottom: 13px;
+  padding-left: 5px;
+}
+
+.appel-engagement {
+  padding: 35px 20px;
+  border-radius: 12px;
+  color: #fff;
+  background: var(--vert-fonce);
+  text-align: center;
+}
+
+.appel-engagement h2 {
+  margin-top: 0;
+  color: #fff;
+}
+
+.btn-principal {
+  display: inline-block;
+  margin-top: 8px;
+  padding: 9px 22px;
+  border-radius: 50px;
+  color: var(--vert-fonce);
+  background: #fff;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.btn-principal:hover {
+  color: var(--vert-fonce);
+  background: #e7f2e4;
+}
+
+@media (max-width: 768px) {
+  .intro-engagements h2 {
+    font-size: 1.8rem;
+  }
+
+  .criteres,
+  .methode {
+    grid-template-columns: 1fr;
+  }
+
+  .critere p {
+    min-height: 0;
+  }
+}

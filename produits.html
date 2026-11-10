@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Découvrez les produits responsables proposés par GreenMarket CI."
+    />
+    <title>Produits | GreenMarket CI</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style_accueil.css" />
+    <link rel="stylesheet" href="style_produits.css" />
+  </head>
+  <body>
+    <header>
+      <h1>GREENMARKET CI</h1>
+      <p>Consommer autrement pour préserver notre environnement</p>
+    </header>
+
+    <div class="container">
+      <nav class="navigation" aria-label="Navigation principale">
+        <a class="bouton bouton-accueil" href="index.html">Accueil</a>
+        <a
+          class="bouton bouton-produits"
+          href="produits.html"
+          aria-current="page"
+          >Produits</a
+        >
+        <details class="nav-dropdown">
+          <summary class="bouton bouton-categories">
+            Catégories <span class="fleche-menu" aria-hidden="true"></span>
+          </summary>
+          <div class="nav-dropdown-menu" aria-label="Sous-menu des catégories">
+            <a href="#filtres">Toutes les catégories</a>
+            <a href="#emballages">Emballages</a>
+            <a href="#pieces">Pièces détachées</a>
+            <a href="#valorisation">Valorisation</a>
+            <a href="#cartonnerie">Cartonnerie</a>
+          </div>
+        </details>
+        <a class="bouton bouton-engagements" href="engagements.html"
+          >Engagements</a
+        >
+        <a class="bouton bouton-conseils" href="conseils.html">Conseils</a>
+        <a class="bouton bouton-commander" href="commandes.html">Commander</a>
+      </nav>
+    </div>
+
+    <main>
+      <nav class="filtres" id="filtres" aria-label="Raccourcis du catalogue">
+        <a href="#emballages">Emballages</a>
+        <a href="#pieces">Pièces détachées</a>
+        <a href="#valorisation">Valorisation</a>
+        <a href="#cartonnerie">Cartonnerie</a>
+      </nav>
+
+      <section
+        class="catalogue-section"
+        id="emballages"
+        aria-labelledby="titre-emballages"
+      >
+        <h2 id="titre-emballages">Emballages et solutions agricoles</h2>
+        <div class="row g-4">
+          <article class="col-12 col-md-6 col-lg-4">
+            <div class="carte-produit">
+              <img
+                src="images/film agricole.jpg"
+                alt="Film agricole pour la protection des cultures"
+              />
+              <div class="carte-produit-corps">
+                <span class="categorie">Emballage</span>
+                <h3>Film agricole</h3>
+                <p>
+                  Films plastiques conçus pour protéger les cultures contre les
+                  intempéries et les UV.
+                </p>
+                <a class="btn-produit" href="fiche-film-agricole.html"
+                  >Voir la fiche <span aria-hidden="true">→</span></a
+                >
+              </div>
+            </div>
+          </article>
+          <article class="col-12 col-md-6 col-lg-4">
+            <div class="carte-produit">
+              <img
+                src="images/Emballage alimentaire.jpg"
+                alt="Emballage alimentaire"
+              />
+              <div class="carte-produit-corps">
+                <span class="categorie">Emballage</span>
+                <h3>Emballage alimentaire</h3>
+                <p>
+                  Une solution conçue pour préserver la sécurité et la fraîcheur
+                  des aliments.
+                </p>
+                <a class="btn-produit" href="fiche-emballage-alimentaire.html"
+                  >Découvrir <span aria-hidden="true">→</span></a
+                >
+              </div>
+            </div>
+          </article>
+          <article class="col-12 col-md-6 col-lg-4">
+            <div class="carte-produit">
+              <img
+                src="images/Sacs et sachets .2.jpg"
+                alt="Sacs et sachets d'emballage"
+              />
+              <div class="carte-produit-corps">
+                <span class="categorie">Emballage</span>
+                <h3>Sacs et sachets</h3>
+                <p>
+                  Des solutions d’emballage adaptées au commerce et aux besoins
+                  industriels.
+                </p>
+                <a class="btn-produit" href="fiche-sacs-sachets.html"
+                  >Découvrir <span aria-hidden="true">→</span></a
+                >
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section
+        class="catalogue-section"
+        id="pieces"
+        aria-labelledby="titre-pieces"
+      >
+        <h2 id="titre-pieces">Pièces détachées et collecte</h2>
+        <div class="row g-4">
+          <article class="col-12 col-md-6 col-lg-4">
+            <div class="carte-produit">
+              <img
+                src="images/Filtre à air.jpg"
+                alt="Filtre à air automobile"
+              />
+              <div class="carte-produit-corps">
+                <span class="categorie">Pièces détachées</span>
+                <h3>Filtre à air</h3>
+                <p>
+                  Une pièce conçue pour protéger le moteur contre les poussières
+                  et les impuretés présentes dans l’air.
+                </p>
+                <a class="btn-produit" href="fiche-filtre-air.html"
+                  >Découvrir <span aria-hidden="true">→</span></a
+                >
+              </div>
+            </div>
+          </article>
+          <article class="col-12 col-md-6 col-lg-4">
+            <div class="carte-produit">
+              <img
+                src="images/Filtre à huile.jpg"
+                alt="Filtre à huile automobile"
+              />
+              <div class="carte-produit-corps">
+                <span class="categorie">Pièces détachées</span>
+                <h3>Filtre à huile</h3>
+                <p>
+                  Une pièce qui retient les impuretés de l’huile afin de
+                  préserver la lubrification et le bon fonctionnement du moteur.
+                </p>
+                <a class="btn-produit" href="fiche-filtre-huile.html"
+                  >Découvrir <span aria-hidden="true">→</span></a
+                >
+              </div>
+            </div>
+          </article>
+          <article class="col-12 col-md-6 col-lg-4">
+            <div class="carte-produit">
+              <img
+                src="images/Plaquette frein avant.jpg"
+                alt="Plaquettes de frein avant"
+              />
+              <div class="carte-produit-corps">
+                <span class="categorie">Pièces détachées</span>
+                <h3>Plaquettes de frein</h3>
+                <p>
+                  Des plaquettes avant et arrière destinées à assurer un
+                  freinage fiable.
+                </p>
+                <a class="btn-produit" href="fiche-plaquettes-frein.html"
+                  >Découvrir <span aria-hidden="true">→</span></a
+                >
+              </div>
+            </div>
+          </article>
+          <article class="col-12 col-md-6 col-lg-4">
+            <div class="carte-produit">
+              <img
+                src="images/Huiles usagés.jpg"
+                alt="Huiles de moteur usagées collectées"
+              />
+              <div class="carte-produit-corps">
+                <span class="categorie">Collecte</span>
+                <h3>Huiles usagées</h3>
+                <p>
+                  Collecte et valorisation des huiles de moteur, hydrauliques et
+                  lubrifiants.
+                </p>
+                <a class="btn-produit" href="fiche-huiles-usagees.html"
+                  >Découvrir <span aria-hidden="true">→</span></a
+                >
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section
+        class="catalogue-section"
+        id="valorisation"
+        aria-labelledby="titre-valorisation"
+      >
+        <h2 id="titre-valorisation">Valorisation et objets du quotidien</h2>
+        <div class="row g-4">
+          <article class="col-12 col-md-6 col-lg-4">
+            <div class="carte-produit">
+              <img
+                src="images/Pavés.jpg"
+                alt="Pavés fabriqués en plastique recyclé"
+              />
+              <div class="carte-produit-corps">
+                <span class="categorie">Recyclage</span>
+                <h3>Pavés recyclés</h3>
+                <p>
+                  Des pavés résistants fabriqués à partir de déchets plastiques
+                  valorisés.
+                </p>
+                <a class="btn-produit" href="fiche-paves-recycles.html"
+                  >Découvrir <span aria-hidden="true">→</span></a
+                >
+              </div>
+            </div>
+          </article>
+          <article class="col-12 col-md-6 col-lg-4">
+            <div class="carte-produit">
+              <img
+                src="images/charbon ecologique (2).jpg"
+                alt="Charbon écologique à base de noix de coco"
+              />
+              <div class="carte-produit-corps">
+                <span class="categorie">Valorisation</span>
+                <h3>Charbon écologique</h3>
+                <p>
+                  Une alternative durable au charbon traditionnel, fabriquée à
+                  partir de noix de coco.
+                </p>
+                <a class="btn-produit" href="fiche-charbon-ecologique.html"
+                  >Découvrir <span aria-hidden="true">→</span></a
+                >
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section
+        class="catalogue-section"
+        id="cartonnerie"
+        aria-labelledby="titre-cartonnerie"
+      >
+        <h2 id="titre-cartonnerie">Cartonnerie et impression</h2>
+        <div class="row g-4">
+          <article class="col-12 col-md-6 col-lg-4">
+            <div class="carte-produit">
+              <img
+                src="images/Poubelle en carton 2.jpg"
+                alt="Poubelle en carton ondulé"
+              />
+              <div class="carte-produit-corps">
+                <span class="categorie">Sanibox</span>
+                <h3>Poubelle en carton ondulé</h3>
+                <p>
+                  Une solution pratique pour les bureaux, événements et espaces
+                  collectifs.
+                </p>
+                <a class="btn-produit" href="fiche-poubelle-carton.html"
+                  >Découvrir <span aria-hidden="true">→</span></a
+                >
+              </div>
+            </div>
+          </article>
+          <article class="col-12 col-md-6 col-lg-4">
+            <div class="carte-produit">
+              <img
+                src="images/Caisse a fruit mangue c Orange.jpg"
+                alt="Caisse en carton pour mangues"
+              />
+              <div class="carte-produit-corps">
+                <span class="categorie">Caisses à fruits</span>
+                <h3>Emballage mangue avion</h3>
+                <p>
+                  Des caisses qui protègent les mangues pendant le transport et
+                  l’exportation.
+                </p>
+                <a class="btn-produit" href="fiche-emballage-mangue.html"
+                  >Découvrir <span aria-hidden="true">→</span></a
+                >
+              </div>
+            </div>
+          </article>
+          <article class="col-12 col-md-6 col-lg-4">
+            <div class="carte-produit">
+              <img
+                src="images/Boites à poussins.jpg"
+                alt="Boîtes à poussins en carton"
+              />
+              <div class="carte-produit-corps">
+                <span class="categorie">Cartonnerie</span>
+                <h3>Boîtes à poussins</h3>
+                <p>
+                  Des boîtes résistantes pour transporter les poussins en toute
+                  sécurité.
+                </p>
+                <a class="btn-produit" href="fiche-boites-poussins.html"
+                  >Découvrir <span aria-hidden="true">→</span></a
+                >
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="pied-colonnes">
+        <div>
+          <h3>GreenMarket CI</h3>
+          <p>Consommer autrement pour préserver notre environnement.</p>
+        </div>
+        <div>
+          <h3>Liens rapides</h3>
+          <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="produits.html">Produits</a></li>
+            <li><a href="engagements.html">Engagements</a></li>
+            <li><a href="commandes.html">Commander</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Contact</h3>
+          <ul>
+            <li>Abidjan, Côte d'Ivoire</li>
+            <li>
+              <a href="mailto:contact@greenmarket-ci.com"
+                >contact@greenmarket-ci.com</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <p class="copyright">&copy; 2026 GreenMarket CI. Tous droits réservés.</p>
+    </footer>
+  </body>
+</html>

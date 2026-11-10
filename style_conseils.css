@@ -1,0 +1,529 @@
+/* Conseils et comparaison des produits */
+
+.gm-conseils-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 36px 20px 50px;
+}
+
+.gm-conseils-page h2 {
+    margin: 0 0 12px;
+    color: #1c6933;
+    font-size: clamp(1.8rem, 3vw, 2.4rem);
+}
+
+.gm-conseils-page > p {
+    max-width: 760px;
+    margin: 0 0 28px;
+    color: #526052;
+    font-size: 1.05rem;
+}
+
+.tableau-comparaison {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    border: 1px solid #dce8d8;
+    border-radius: 14px;
+    background: #fff;
+    box-shadow: 0 8px 24px rgba(28, 105, 51, .08);
+}
+
+.tableau-produits {
+    width: 100%;
+    min-width: 1500px;
+    border-collapse: separate;
+    border-spacing: 0;
+    color: #263122;
+}
+
+.tableau-produits th,
+.tableau-produits td {
+    min-width: 145px;
+    padding: 14px;
+    border-right: 1px solid #e1eade;
+    border-bottom: 1px solid #e1eade;
+    text-align: left;
+    vertical-align: top;
+}
+
+.tableau-produits thead th {
+    color: #fff;
+    background: #1c6933;
+    font-size: .9rem;
+}
+
+.tableau-produits thead th:first-child {
+    position: sticky;
+    left: 0;
+    z-index: 2;
+    min-width: 160px;
+    background: #145327;
+}
+
+.tableau-produits tbody th {
+    position: sticky;
+    left: 0;
+    z-index: 1;
+    min-width: 160px;
+    color: #1c6933;
+    background: #eaf5e7;
+}
+
+.tableau-produits tbody tr:nth-child(even) td {
+    background: #f8fbf6;
+}
+
+.tableau-produits th:last-child,
+.tableau-produits td:last-child {
+    border-right: 0;
+}
+
+.tableau-produits tbody tr:last-child th,
+.tableau-produits tbody tr:last-child td {
+    border-bottom: 0;
+}
+
+@media (max-width: 768px) {
+    .gm-conseils-page {
+        padding: 28px 15px 38px;
+    }
+
+    .tableau-produits th,
+    .tableau-produits td {
+        padding: 11px;
+    }
+}
+
+/* ==========================================
+   GREENMARKET CI
+   CONSEILS, COMPARAISON ET TEMOIGNAGES
+========================================== */
+
+/* =====================================
+   1. COMPARAISON DES PRODUITS
+===================================== */
+
+.gm-conseils-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 36px 20px 50px;
+}
+
+.gm-conseils-page h2 {
+    margin: 0 0 12px;
+    color: #1c6933;
+    font-size: clamp(1.8rem, 3vw, 2.4rem);
+}
+
+.gm-conseils-page > p {
+    max-width: 760px;
+    margin: 0 0 28px;
+    color: #526052;
+    font-size: 1.05rem;
+}
+
+.tableau-comparaison {
+    overflow-x: auto;
+    border: 1px solid #dce8d8;
+    border-radius: 14px;
+    background: #fff;
+    box-shadow: 0 8px 24px rgba(28, 105, 51, .08);
+}
+
+.tableau-produits {
+    width: 100%;
+    min-width: 1500px;
+    border-collapse: separate;
+    border-spacing: 0;
+    color: #263122;
+}
+
+.tableau-produits th,
+.tableau-produits td {
+    min-width: 145px;
+    padding: 14px;
+    border-right: 1px solid #e1eade;
+    border-bottom: 1px solid #e1eade;
+    text-align: left;
+    vertical-align: top;
+}
+
+.tableau-produits thead th {
+    color: #fff;
+    background: #1c6933;
+    font-size: .9rem;
+}
+
+.tableau-produits thead th:first-child {
+    position: sticky;
+    left: 0;
+    z-index: 2;
+    min-width: 160px;
+    background: #145327;
+}
+
+.tableau-produits tbody th {
+    position: sticky;
+    left: 0;
+    z-index: 1;
+    min-width: 160px;
+    color: #1c6933;
+    background: #eaf5e7;
+}
+
+.tableau-produits tbody tr:nth-child(even) td {
+    background: #f8fbf6;
+}
+
+.tableau-produits th:last-child,
+.tableau-produits td:last-child {
+    border-right: 0;
+}
+
+.tableau-produits tbody tr:last-child th,
+.tableau-produits tbody tr:last-child td {
+    border-bottom: 0;
+}
+
+
+/* =====================================
+   2. TITRES DES SECTIONS
+===================================== */
+
+.titre-section {
+    margin: 55px 0 20px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid #dce8d8;
+    color: #1c6933;
+}
+
+.section-comparaison,
+.section-temoignages,
+.section-conseils,
+.section-formulaire {
+    margin-bottom: 55px;
+}
+
+.section-temoignages {
+    max-width: 1240px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0 20px;
+}
+
+
+/* =====================================
+   3. TEMOIGNAGES ET AVIS
+===================================== */
+
+.section-temoignages > p {
+    color: #526052;
+    line-height: 1.7;
+    margin-bottom: 25px;
+}
+
+.liste-avis {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 22px;
+    margin-top: 25px;
+}
+
+.carte-avis {
+    background: #ffffff;
+    padding: 24px;
+    border-radius: 15px;
+    border: 1px solid #dce8d8;
+    box-shadow: 0 5px 18px rgba(28, 105, 51, 0.08);
+    transition: transform 0.3s ease;
+}
+
+.carte-avis:hover {
+    transform: translateY(-5px);
+}
+
+.nom-client {
+    color: #1c6933;
+    font-size: 19px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.date-avis {
+    color: #888888;
+    font-size: 13px;
+    margin-bottom: 12px;
+}
+
+.carte-avis h3 {
+    color: #236b45;
+    font-size: 18px;
+    margin: 12px 0;
+}
+
+.carte-avis p {
+    color: #526052;
+    line-height: 1.7;
+    font-size: 15px;
+}
+
+
+/* =====================================
+   4. ETOILES ET NOTES
+===================================== */
+
+.etoiles {
+    color: #f2b705;
+    font-size: 25px;
+    letter-spacing: 3px;
+    margin: 10px 0;
+}
+
+.note {
+    color: #1c6933;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.avis-positif {
+    display: inline-block;
+    background: #e1f4e5;
+    color: #23743b;
+    padding: 7px 13px;
+    border-radius: 20px;
+    font-size: 13px;
+    margin: 10px 0;
+}
+
+.avis-negatif {
+    display: inline-block;
+    background: #fff0e9;
+    color: #bd593c;
+    padding: 7px 13px;
+    border-radius: 20px;
+    font-size: 13px;
+    margin: 10px 0;
+}
+
+
+/* =====================================
+   5. CONSEILS ECOLOGIQUES
+===================================== */
+
+.section-conseils > p {
+    color: #526052;
+    line-height: 1.7;
+}
+
+.grille-conseils {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 22px;
+    margin-top: 25px;
+}
+
+.carte-conseil {
+    background: #f5faf4;
+    border-left: 5px solid #2d8a50;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+}
+
+.carte-conseil:hover {
+    transform: translateY(-4px);
+}
+
+.icone-conseil {
+    font-size: 34px;
+    margin-bottom: 12px;
+}
+
+.carte-conseil h3 {
+    font-size: 19px;
+    color: #1c6933;
+    margin-bottom: 10px;
+}
+
+.carte-conseil p {
+    font-size: 15px;
+    color: #526052;
+    line-height: 1.7;
+}
+
+
+/* =====================================
+   6. FORMULAIRE DE TEMOIGNAGE
+===================================== */
+
+.formulaire-avis {
+    background: #f1f8f1;
+    padding: 35px;
+    margin-top: 30px;
+    border-radius: 15px;
+    border: 1px solid #dce8d8;
+    box-shadow: 0 5px 18px rgba(28, 105, 51, .06);
+}
+
+.formulaire-avis fieldset {
+    min-width: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.formulaire-avis h3 {
+    color: #1c6933;
+    font-size: 21px;
+    margin: 25px 0 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #dce8d8;
+}
+
+.formulaire-avis h3:first-child {
+    margin-top: 0;
+}
+
+.formulaire-avis label {
+    display: block;
+    margin: 17px 0 8px;
+    font-weight: bold;
+    color: #236b45;
+}
+
+.formulaire-avis input,
+.formulaire-avis select,
+.formulaire-avis textarea {
+    width: 100%;
+    padding: 13px;
+    border: 1px solid #cbd9cb;
+    border-radius: 8px;
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    background: #ffffff;
+    color: #263122;
+}
+
+.formulaire-avis input:focus,
+.formulaire-avis select:focus,
+.formulaire-avis textarea:focus {
+    outline: none;
+    border-color: #238044;
+    box-shadow: 0 0 0 3px rgba(35, 128, 68, .12);
+}
+
+.formulaire-avis textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+.formulaire-avis button {
+    display: inline-block;
+    margin-top: 25px;
+    background: #238044;
+    color: white;
+    border: none;
+    padding: 14px 28px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+    transition: background 0.3s;
+}
+
+.formulaire-avis button:hover {
+    background: #155b30;
+}
+
+
+/* =====================================
+   7. CASE DE CONSENTEMENT
+===================================== */
+
+.formulaire-avis .consentement {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.formulaire-avis .consentement input {
+    width: auto;
+    margin-top: 17px;
+}
+
+.formulaire-avis .consentement label {
+    display: inline;
+    font-weight: normal;
+    margin: 12px 0;
+    line-height: 1.5;
+}
+
+.note-formulaire {
+    font-size: 13px;
+    color: #777777;
+    margin-top: 15px;
+}
+
+
+/* =====================================
+   8. ADAPTATION AUX TABLETTES
+===================================== */
+
+@media (max-width: 900px) {
+
+    .liste-avis,
+    .grille-conseils {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+
+/* =====================================
+   9. ADAPTATION AUX TELEPHONES
+===================================== */
+
+@media (max-width: 768px) {
+
+    .section-temoignages {
+        padding: 0 15px;
+    }
+
+    .gm-conseils-page {
+        padding: 28px 15px 38px;
+    }
+
+    .gm-conseils-page h2 {
+        font-size: 24px;
+    }
+
+    .tableau-produits th,
+    .tableau-produits td {
+        padding: 11px;
+    }
+
+    .liste-avis {
+        grid-template-columns: 1fr;
+    }
+
+    .grille-conseils {
+        grid-template-columns: 1fr;
+    }
+
+    .formulaire-avis {
+        padding: 20px;
+    }
+
+    .formulaire-avis button {
+        width: 100%;
+    }
+
+    .titre-section {
+        margin-top: 35px;
+    }
+
+}

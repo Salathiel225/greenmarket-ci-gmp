@@ -1,0 +1,51 @@
+/* Mise en forme du formulaire de commande */
+.gm-order-page {
+    background: #f4f7ef;
+}
+
+.gm-order-card {
+    border: 1px solid #dce8d8;
+    border-radius: 16px;
+    background: #fff;
+    box-shadow: 0 10px 30px rgba(28, 105, 51, .1);
+}
+
+.gm-order-card h2 {
+    color: #1c6933;
+}
+
+.form-commande fieldset {
+    padding: 20px;
+    border: 1px solid #d7e3d3;
+    border-radius: 10px;
+}
+
+.form-commande legend {
+    float: none;
+    width: auto;
+    padding: 0 8px;
+    color: #1c6933;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.form-commande .form-label {
+    color: #344334;
+    font-weight: 600;
+}
+
+.form-commande .form-control:focus,
+.form-commande .form-select:focus {
+    border-color: #4caf50;
+    box-shadow: 0 0 0 .2rem rgba(76, 175, 80, .18);
+}
+
+.form-commande .btn-primary {
+    border-color: #4caf50;
+    background: #4caf50;
+}
+
+.form-commande .btn-primary:hover {
+    border-color: #1c6933;
+    background: #1c6933;
+}
